@@ -1,10 +1,17 @@
+import { useState } from "react";
 import "./styles.css";
+import Menu from "./components/Menu";
+import GameBoard from "./components/GameBoard";
+import { GAME_STATE } from "./constants";
 
 export default function App() {
+  // State for the game
+  const [gameState, setGameState] = useState(GAME_STATE.MENU);
+
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      {gameState === GAME_STATE.MENU && <Menu setGameState={setGameState} />}
+      {gameState === GAME_STATE.GAME_BOARD && <GameBoard />}
     </div>
   );
 }
