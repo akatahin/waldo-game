@@ -1,0 +1,77 @@
+[
+  {
+    "image": "/src/images/sampleimage_1.jpeg",
+    "coordinates": [
+      { "x": 1, "y": 1 },
+      { "x": 4, "y": 4 }
+    ],
+    "time_limit": 60000,
+    "hints": [
+      {
+        "type": "String",
+        "value": "Correct loction is in the bottom corner!"
+      },
+      {
+        "type": "String",
+        "value": "Look for the red hat."
+      },
+      {
+        "type": "Coordinate",
+        "value": [
+          { "x": 4, "y": 4 },
+          { "x": 1, "y": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/src/images/sampleimage_2.png",
+    "coordinates": [
+      { "x": 1, "y": 1 },
+      { "x": 4, "y": 4 }
+    ],
+    "time_limit": 60000,
+    "hints": [
+      {
+        "type": "String",
+        "value": "Correct loction is in the bottom corner!"
+      },
+      {
+        "type": "String",
+        "value": "Look for the red hat."
+      },
+      {
+        "type": "Coordinate",
+        "value": [
+          { "x": 4, "y": 4 },
+          { "x": 1, "y": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "image": "/src/images/sampleimage_3.jpeg",
+    "coordinates": [
+      { "x": 1, "y": 1 },
+      { "x": 4, "y": 4 }
+    ],
+    "time_limit": 60000,
+    "hints": [
+      {
+        "type": "String",
+        "value": "Correct loction is in the bottom corner!"
+      },
+      {
+        "type": "String",
+        "value": "Look for the red hat."
+      },
+      {
+        "type": "Coordinate",
+        "value": [
+          { "x": 4, "y": 4 },
+          { "x": 1, "y": 1 }
+        ]
+      }
+    ]
+  }
+]

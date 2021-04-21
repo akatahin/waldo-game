@@ -10,8 +10,10 @@ export default function App() {
 
   return (
     <div className="App">
-      {gameState === GAME_STATE.MENU && <Menu setGameState={setGameState} />}
-      {gameState === GAME_STATE.GAME_BOARD && <GameBoard />}
+      {gameState === GAME_STATE.MENU && <Menu setState={setGameState} />}
+      {gameState === GAME_STATE.GAME_BOARD && (
+        <GameBoard setState={setGameState} />
+      )}
     </div>
   );
 }
