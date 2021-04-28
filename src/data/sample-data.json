@@ -1,6 +1,6 @@
 [
   {
-    "image": "/src/images/sampleimage_1.jpeg",
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/sampleimage_1.jpeg",
     "coordinates": [
       { "x": 1, "y": 1 },
       { "x": 4, "y": 4 }
@@ -25,7 +25,7 @@
     ]
   },
   {
-    "image": "/src/images/sampleimage_2.png",
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/sampleimage_2.png",
     "coordinates": [
       { "x": 1, "y": 1 },
       { "x": 4, "y": 4 }
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "image": "/src/images/sampleimage_3.jpeg",
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/sampleimage_3.jpeg",
     "coordinates": [
       { "x": 1, "y": 1 },
       { "x": 4, "y": 4 }

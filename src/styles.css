@@ -16,3 +16,13 @@
 .menuTitle{ 
   font-size: 50px;
 }
+
+#game-board {
+  display: flex;
+  flex-direction: column;
+}
+
+#game-image {
+  height: 720px;
+  width: 1280px;
+}
