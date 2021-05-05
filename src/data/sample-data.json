@@ -1,77 +1,41 @@
 [
   {
     "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/sampleimage_1.jpeg",
+    "objective": "Find the Lion!",
     "coordinates": [
       { "x": 1062, "y": 216 },
       { "x": 1160, "y": 330 }
     ],
     "time_limit": 60000,
-    "hints": [
-      {
-        "type": "String",
-        "value": "Correct loction is in the bottom corner!"
-      },
-      {
-        "type": "String",
-        "value": "Look for the red hat."
-      },
-      {
-        "type": "Coordinate",
-        "value": [
-          { "x": 4, "y": 4 },
-          { "x": 1, "y": 1 }
-        ]
-      }
+    "hints_coordinate": [
+      { "x": 10, "y": 46 },
+      { "x": 661, "y": 765 }
     ]
   },
   {
     "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/sampleimage_2.png",
+    "objective": "Find the Waldo!",
     "coordinates": [
       { "x": 207, "y": 179 },
       { "x": 230, "y": 224 }
     ],
     "time_limit": 60000,
-    "hints": [
-      {
-        "type": "String",
-        "value": "Correct loction is in the bottom corner!"
-      },
-      {
-        "type": "String",
-        "value": "Look for the red hat."
-      },
-      {
-        "type": "Coordinate",
-        "value": [
-          { "x": 4, "y": 4 },
-          { "x": 1, "y": 1 }
-        ]
-      }
+    "hints_coordinate": [
+      { "x": 675, "y": 46 },
+      { "x": 1287, "y": 765 }
     ]
   },
   {
     "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/sampleimage_3.jpeg",
+    "objective": "Find the Bear!",
     "coordinates": [
       { "x": 227, "y": 87 },
       { "x": 305, "y": 131 }
     ],
     "time_limit": 60000,
-    "hints": [
-      {
-        "type": "String",
-        "value": "Correct loction is in the bottom corner!"
-      },
-      {
-        "type": "String",
-        "value": "Look for the red hat."
-      },
-      {
-        "type": "Coordinate",
-        "value": [
-          { "x": 227, "y": 87 },
-          { "x": 305, "y": 131 }
-        ]
-      }
+    "hints_coordinate": [
+      { "x": 7, "y": 443 },
+      { "x": 1287, "y": 765 }
     ]
   }
 ]

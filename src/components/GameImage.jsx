@@ -34,6 +34,7 @@ function GameImage(props) {
           }
         }}
       />
+      {/* Create a 50/50 Hint Component */}
     </React.Fragment>
   );
 }

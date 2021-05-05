@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import GameBoard from "./components/GameBoard";
 import { GAME_STATE } from "./constants";
 
+
 export default function App() {
   // State for the game
   const [gameState, setGameState] = useState(GAME_STATE.MENU);
