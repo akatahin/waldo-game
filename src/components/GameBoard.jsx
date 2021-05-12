@@ -10,6 +10,8 @@ function GameBoard(props) {
   const [round, setRound] = useState(0);
   const [hints, setHints] = useState(["time", "50/50", "highlight"]);
 
+  const [timer, setTimer] = useState(data[round].time_limit);
+
   // Hint hooks for every game image
   const [showHighlight, setShowHighlight] = useState(false);
   const [showHalf, setShowHalf] = useState(false);
@@ -35,12 +37,13 @@ function GameBoard(props) {
         setShowHighlight={setShowHighlight}
         showHalf={showHalf}
         setShowHalf={setShowHalf}
+        setTimer={setTimer}
       />
       <Label
         className="gameBoardTitle"
         text={`Objective: ${data[round].objective}`}
       />
-      <Timer timeLimit={data[round].time_limit}/>
+      <Timer timer={timer} setTimer={setTimer}/>
 
       {hints.includes("time") && (
         <Button

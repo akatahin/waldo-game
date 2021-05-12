@@ -37,6 +37,7 @@ function GameImage(props) {
           props.setShowHalf(false);
           if (props.round < data.length - 1) {
             props.setRound(props.round + 1);
+            props.setTimer(data[props.round + 1].time_limit);
           }
         }}
       />

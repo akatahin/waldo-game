@@ -1,31 +1,30 @@
 import { useState, useEffect, useRef } from "react";
 import Label from "./Label";
 
-// function useInterval(callback, delay) {
-//   const savedCallback = useRef();
+function useInterval(callback, delay) {
+  const savedCallback = useRef();
 
-//   // Remember the latest callback.
-//   useEffect(() => {
-//     savedCallback.current = callback;
-//   }, [callback]);
+  // Remember the latest callback.
+  useEffect(() => {
+    savedCallback.current = callback;
+  }, [callback]);
 
-//   // Set up the interval.
-//   useEffect(() => {
-//     let id = setInterval(() => {
-//       savedCallback.current();
-//     }, delay);
-//     return () => clearInterval(id);
-//   }, [delay]);
-// }
+  // Set up the interval.
+  useEffect(() => {
+    let id = setInterval(() => {
+      savedCallback.current();
+    }, delay);
+    return () => clearInterval(id);
+  }, [delay]);
+}
 
 function Timer(props) {
-const [timer, setTimer] = useState(props.timeLimit);
+  useInterval(() => {
+    props.setTimer(props.timer - 1000);
+  }, 1000);
 
-//   useInterval(() => {
-//     setTimer(timer - 1000)
-//   }, 1000)
-
-return <Label className="gameBoardTimer" text={`Timer: ${timer}`} />;
+  const time = Math.max(props.timer / 1000, 0) ;
+  return <Label className="gameBoardTimer" text={`Timer: ${time}`} />;
 }
 
 export default Timer;
