@@ -4,7 +4,7 @@ import { GAME_STATE } from "../constants";
 
 function Menu(props) {
   const startGame = () => {
-    props.setState(GAME_STATE.GAME_BOARD);
+    props.setGameState(GAME_STATE.GAME_BOARD);
   };
 
   return (

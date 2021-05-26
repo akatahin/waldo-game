@@ -1,5 +1,6 @@
-import data from "../data/sample-data.json";
+import data from "../data/game-data.json";
 import React from "react";
+import { GAME_STATE } from "../constants";
 
 function GameImage(props) {
   const { coordinates, hints_coordinate } = data[props.round];
@@ -38,6 +39,8 @@ function GameImage(props) {
           if (props.round < data.length - 1) {
             props.setRound(props.round + 1);
             props.setTimer(data[props.round + 1].time_limit);
+          } else {
+            props.setGameState(GAME_STATE.GAME_WIN);
           }
         }}
       />

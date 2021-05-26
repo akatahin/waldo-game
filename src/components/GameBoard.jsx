@@ -2,7 +2,7 @@ import { useState } from "react";
 import Label from "./Label";
 import Button from "./Button";
 import { GAME_STATE } from "../constants";
-import data from "../data/sample-data.json";
+import data from "../data/game-data.json";
 import GameImage from "./GameImage";
 import Timer from "./Timer";
 
@@ -18,7 +18,12 @@ function GameBoard(props) {
 
   // Create function here to set state back to GAME_STATE.MENU
   const backToMenu = () => {
-    props.setState(GAME_STATE.MENU);
+    props.setGameState(GAME_STATE.MENU);
+  };
+
+  // This will set the game to GAME_OVER state
+  const gameOver = () => {
+    props.setGameState(GAME_STATE.GAME_OVER);
   };
 
   const removeHint = (clickedHint) => {
@@ -38,18 +43,20 @@ function GameBoard(props) {
         showHalf={showHalf}
         setShowHalf={setShowHalf}
         setTimer={setTimer}
+        setGameState={props.setGameState}
       />
       <Label
         className="gameBoardTitle"
         text={`Objective: ${data[round].objective}`}
       />
-      <Timer timer={timer} setTimer={setTimer}/>
+      <Timer timer={timer} setTimer={setTimer} triggerGameOver={gameOver} />
 
       {hints.includes("time") && (
         <Button
           buttonName="Reset Timer"
           onClickHandler={() => {
             // Tell the Timer to reset.
+            setTimer(data[round].time_limit);
             // Do this after we implement timer.
             removeHint("time");
           }}

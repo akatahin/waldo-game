@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import Label from "./Label";
 
 function useInterval(callback, delay) {
@@ -23,7 +23,11 @@ function Timer(props) {
     props.setTimer(props.timer - 1000);
   }, 1000);
 
-  const time = Math.max(props.timer / 1000, 0) ;
+  if (props.timer <= 0) {
+    props.triggerGameOver();
+  }
+
+  const time = Math.max(props.timer / 1000, 0);
   return <Label className="gameBoardTimer" text={`Timer: ${time}`} />;
 }
 
