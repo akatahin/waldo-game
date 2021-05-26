@@ -2,8 +2,9 @@ import { useState } from "react";
 import "./styles.css";
 import Menu from "./components/Menu";
 import GameBoard from "./components/GameBoard";
-import { GAME_STATE } from "./constants";
+import GameOver from "./components/GameOver";
 
+import { GAME_STATE } from "./constants";
 
 export default function App() {
   // State for the game
@@ -11,9 +12,13 @@ export default function App() {
 
   return (
     <div className="App">
-      {gameState === GAME_STATE.MENU && <Menu setState={setGameState} />}
+      {gameState === GAME_STATE.MENU && <Menu setGameState={setGameState} />}
       {gameState === GAME_STATE.GAME_BOARD && (
-        <GameBoard setState={setGameState} />
+        <GameBoard setGameState={setGameState} />
+      )}
+      {(gameState === GAME_STATE.GAME_OVER ||
+        gameState === GAME_STATE.GAME_WIN) && (
+        <GameOver gameState={gameState} setGameState={setGameState} />
       )}
     </div>
   );
