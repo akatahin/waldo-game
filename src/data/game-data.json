@@ -65,42 +65,42 @@
     ]
   },
   {
-    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round5.png",
-    "objective": "New Number 1",
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round6.jpeg",
+    "objective": "Find The Odd One Out",
     "coordinates": [
-      { "x": 476, "y": 358 },
-      { "x": 820, "y": 549 }
+      { "x": 749, "y": 446 },
+      { "x": 901, "y": 598 }
     ],
     "time_limit": 10000,
     "hints_coordinate": [
-      { "x": 830, "y": 356 },
-      { "x": 1171, "y": 549 }
+      { "x": 8, "y": 85 },
+      { "x": 661, "y": 805 }
     ]
   },
   {
-    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round5.png",
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round7.jpeg",
     "objective": "Find the Vassel!!",
     "coordinates": [
-      { "x": 476, "y": 358 },
-      { "x": 820, "y": 549 }
+      { "x": 586, "y": 531 },
+      { "x": 623, "y": 588 }
     ],
     "time_limit": 40000,
     "hints_coordinate": [
-      { "x": 830, "y": 356 },
-      { "x": 1171, "y": 549 }
+      { "x": 8, "y": 85 },
+      { "x": 1287, "y": 494 }
     ]
   },
   {
-    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round5.png",
-    "objective": "Next number 3",
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round8.jpeg",
+    "objective": "Which choice is correct?",
     "coordinates": [
-      { "x": 476, "y": 358 },
-      { "x": 820, "y": 549 }
+      { "x": 886, "y": 472},
+      { "x": 1070, "y": 608 }
     ],
-    "time_limit": 10000,
+    "time_limit": 15000,
     "hints_coordinate": [
-      { "x": 830, "y": 356 },
-      { "x": 1171, "y": 549 }
+      { "x": 539, "y": 504 },
+      { "x": 724, "y": 610 }
     ]
   }
 ]
