@@ -6,7 +6,7 @@
       { "x": 1030, "y": 256 },
       { "x": 1160, "y": 363 }
     ],
-    "time_limit": 70000,
+    "time_limit": 40000,
     "hints_coordinate": [
       { "x": 8, "y": 85 },
       { "x": 661, "y": 805 }
@@ -45,7 +45,7 @@
       { "x": 7, "y": 425 },
       { "x": 424, "y": 468 }
     ],
-    "time_limit": 60000,
+    "time_limit": 45000,
     "hints_coordinate": [
       { "x": 675, "y": 85 },
       { "x": 1288, "y": 805 }
@@ -58,7 +58,46 @@
       { "x": 476, "y": 358 },
       { "x": 820, "y": 549 }
     ],
-    "time_limit": 60000,
+    "time_limit": 10000,
+    "hints_coordinate": [
+      { "x": 830, "y": 356 },
+      { "x": 1171, "y": 549 }
+    ]
+  },
+  {
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round5.png",
+    "objective": "New Number 1",
+    "coordinates": [
+      { "x": 476, "y": 358 },
+      { "x": 820, "y": 549 }
+    ],
+    "time_limit": 10000,
+    "hints_coordinate": [
+      { "x": 830, "y": 356 },
+      { "x": 1171, "y": 549 }
+    ]
+  },
+  {
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round5.png",
+    "objective": "Find the Vassel!!",
+    "coordinates": [
+      { "x": 476, "y": 358 },
+      { "x": 820, "y": 549 }
+    ],
+    "time_limit": 40000,
+    "hints_coordinate": [
+      { "x": 830, "y": 356 },
+      { "x": 1171, "y": 549 }
+    ]
+  },
+  {
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round5.png",
+    "objective": "Next number 3",
+    "coordinates": [
+      { "x": 476, "y": 358 },
+      { "x": 820, "y": 549 }
+    ],
+    "time_limit": 10000,
     "hints_coordinate": [
       { "x": 830, "y": 356 },
       { "x": 1171, "y": 549 }
