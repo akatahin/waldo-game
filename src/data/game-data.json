@@ -102,5 +102,31 @@
       { "x": 539, "y": 504 },
       { "x": 724, "y": 610 }
     ]
+  },
+  {
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round9.jpeg",
+    "objective": "LEGGO!",
+    "coordinates": [
+      { "x": 646, "y": 655 },
+      { "x": 768, "y": 804 }
+    ],
+    "time_limit": 15000,
+    "hints_coordinate": [
+      { "x": 8, "y": 85 },
+      { "x": 1287, "y": 494 }
+    ]
+  },
+  {
+    "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round10.jpeg",
+    "objective": "White to checkmate in one",
+    "coordinates": [
+      { "x": 939, "y": 118 },
+      { "x": 1086, "y": 199 }
+    ],
+    "time_limit": 10000,
+    "hints_coordinate": [
+      { "x": 8, "y": 85 },
+      { "x": 500, "y": 805 }
+    ]
   }
 ]
