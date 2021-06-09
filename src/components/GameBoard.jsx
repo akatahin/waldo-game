@@ -46,7 +46,7 @@ function GameBoard(props) {
         setGameState={props.setGameState}
       />
       <Label
-        className="gameBoardTitle"
+        className="gameBoardObjective"
         text={`Objective: ${data[round].objective}`}
       />
       <Timer timer={timer} setTimer={setTimer} triggerGameOver={gameOver} />

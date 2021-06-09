@@ -27,7 +27,7 @@
   },
   {
     "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/sampleimage_3.jpeg",
-    "objective": "Find the Bear!",
+    "objective": "Find the FALLING Bear!",
     "coordinates": [
       { "x": 227, "y": 124 },
       { "x": 305, "y": 169 }
@@ -79,7 +79,7 @@
   },
   {
     "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round7.jpeg",
-    "objective": "Find the Vassel!!",
+    "objective": "Find the Vessel!!",
     "coordinates": [
       { "x": 586, "y": 531 },
       { "x": 623, "y": 588 }
@@ -94,7 +94,7 @@
     "image": "https://raw.githubusercontent.com/akatahin/waldo-game/main/src/images/round8.jpeg",
     "objective": "Which choice is correct?",
     "coordinates": [
-      { "x": 886, "y": 472},
+      { "x": 886, "y": 472 },
       { "x": 1070, "y": 608 }
     ],
     "time_limit": 15000,
