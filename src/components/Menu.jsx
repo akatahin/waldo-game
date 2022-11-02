@@ -13,6 +13,7 @@ function Menu(props) {
       <Button buttonName="Start" onClickHandler={startGame} />
       <Button buttonName="Score Board" />
       <Button buttonName="Difficulty" />
+      <Label className="menuTitle" text="Built by 4ka7ah1n..." />
     </div>
   );
 }
